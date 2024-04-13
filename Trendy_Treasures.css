@@ -111,11 +111,23 @@ body{
 .search-form label:hover{
     color: var(--green);
 }
-.rounded{
+.fashionlogo{
     position: absolute;
-    top: 130px;
+    top: 120px;
     left: 50px;
     width: 1400px;
     height: 420px;
     box-shadow: var(--box-shadow);
+    border-radius: 1rem;
+    background-image: url(fashion4.webp);
+    background-size:cover;
+}
+.rounded1{
+    /* background-size:contain;
+    background-repeat: repeat; */
+    position: absolute;
+    top:0%;
+    height: 70px;
+    width: 100px;
+    
 }
