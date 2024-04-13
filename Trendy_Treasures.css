@@ -111,3 +111,11 @@ body{
 .search-form label:hover{
     color: var(--green);
 }
+.rounded{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 1400px;
+    height: 420px;
+    box-shadow: var(--box-shadow);
+}
