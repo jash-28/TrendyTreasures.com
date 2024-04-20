@@ -30,11 +30,11 @@ body{
     background-color: #eee;
 }
 .header{
-    border: 0px solid;
     position: fixed;
     top:0;
     left: 0;
     right: 0;
+    border: 0px solid;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,12 +43,9 @@ body{
     box-shadow: var(--box-shadow);
 }
 .logo{
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bolder;
     text-decoration: none;
-}
-.logo i{
-    color: var(--green);
 }
 .navbar a{
     font-size: 1.7rem;
@@ -81,10 +78,10 @@ body{
 }
 .search-form{
     position: absolute;
-    top: 110%;
+    top: 122%;
     right: 2rem;
     width: 50rem;
-    height:5rem;
+    height:60px;
     background-color: #fff;
     border-radius: .5rem;
     overflow: hidden;
@@ -111,23 +108,26 @@ body{
 .search-form label:hover{
     color: var(--green);
 }
-.fashionlogo{
-    position: absolute;
-    top: 120px;
-    left: 50px;
-    width: 1400px;
-    height: 420px;
-    box-shadow: var(--box-shadow);
-    border-radius: 1rem;
-    background-image: url(fashion4.webp);
-    background-size:cover;
-}
-.rounded1{
-    /* background-size:contain;
-    background-repeat: repeat; */
-    position: absolute;
-    top:0%;
+.navbar1{
     height: 70px;
-    width: 100px;
-    
+    width: 65%;
+    position: absolute;
+    top: 130px;
+    justify-content: space-between;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+.navbar1 a:hover{
+    color: var(--green);
+}
+.navbar1 a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+    text-decoration: none;
 }
