@@ -118,7 +118,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 9%;
+    padding: 2rem 5%;
     background:#fff;
     box-shadow: var(--box-shadow);
 }
@@ -127,7 +127,7 @@ body{
 }
 .navbar1 a{
     font-size: 1.7rem;
-    margin: 0 1rem;
+    margin: 0 0.8rem;
     color: var(--black);
     text-decoration: none;
 }
