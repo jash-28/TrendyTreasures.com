@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+:root{
+    --green:green;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .1rem 1rem #666;
+    --border:2rem solid rgba(0,0,0.1);
+    --outline:0.1rem solid rgba(0,0,0.1);
+}
+
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    background-color: #eee;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color: var(--black);
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: var(--green);
+}
+
+.icons div{
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background-color: #eee;
+    color: var(--black);
+    font-size: 2rem;
+    margin-right: .3rem;
+    text-align: center;
+    cursor: pointer;
+}
+.icons div:hover{
+    background-color: var(--green);
+    color: #fff;
+}
+#menu-btn{
+    display: none;
+}
+.search-form{
+    position: absolute;
+    top: 122%;
+    right: 2rem;
+    width: 50rem;
+    height:60px;
+    background-color: #fff;
+    border-radius: .5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+}
+.search-form input
+{
+    height: 100%;
+    width: 100%;
+    background: none;
+    text-transform: none;
+    font-size: 1.6rem;
+    color: var(--black);
+    padding: 0 1.5rem;
+}
+.search-form label{
+    font-size: 2rem;
+    padding-right: 1.5rem;
+    color: var(--black);
+    cursor: pointer;
+}
+.search-form label:hover{
+    color: var(--green);
+}
+.navbar1{
+    height: 70px;
+    width: 65%;
+    position: absolute;
+    top: 130px;
+    justify-content: space-between;
+    border: 0px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 5%;
+    background:#fff;
+    box-shadow: var(--box-shadow);
+}
+.navbar1 a:hover{
+    color: var(--green);
+}
+.navbar1 a{
+    font-size: 1.7rem;
+    margin: 0 0.8rem;
+    color: var(--black);
+    text-decoration: none;
+}
