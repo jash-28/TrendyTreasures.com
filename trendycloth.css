@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
-
-<<<<<<< HEAD
 :root{
     --green:green;
     --black:#130f40;
@@ -130,8 +128,7 @@ body{
     font-size: 1.7rem;
     margin: 0 0.8rem;
     color: var(--black);
-    text-decoration: none;
-=======
+    text-decoration: none;}
 * {
     margin: 0;
     padding: 0;
@@ -658,5 +655,4 @@ footer a:hover{
 footer .copyright{
     width: 100%;
     text-align: center;
->>>>>>> 9b552820bcf31dc06059471b4c57d1f766d2dbd2
 }
